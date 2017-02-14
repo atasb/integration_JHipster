@@ -7,7 +7,7 @@ Navbar
 }
 
 .jh-navbar {
-    background-color: #353d47;
+    background-color: silver;
     padding: .2em 1em;
 }
 
@@ -36,6 +36,7 @@ Navbar
 
 .jh-navbar a.nav-link {
     font-weight: 400;
+    padding: 15px;
 }
 
 .jh-navbar .jh-navbar-toggler {
@@ -45,7 +46,7 @@ Navbar
 }
 
 .jh-navbar .jh-navbar-toggler:hover {
-    color: #fff;
+    color: #AAA;
 }
 
 
@@ -61,6 +62,27 @@ Navbar
     vertical-align: middle;
 }
 
+.nav.nav-center {
+    display: -webkit-inline-box;
+    left: 0;
+    right: 0;
+    float:none;
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+.nav-link{
+	display: inline-block;
+	color: black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.nav-link:hover{
+	
+}
 
 /* ==========================================================================
 Logo styles

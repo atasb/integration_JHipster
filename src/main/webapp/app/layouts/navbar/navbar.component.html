@@ -4,8 +4,9 @@
             <span class="navbar-title">Zeppelin</span>
         </a>
     </div>
-    <div class="collapse navbar-toggleable-md float-lg-center" id="navbarResponsive" [ngbCollapse]="isNavbarCollapsed" [ngSwitch]="isAuthenticated()">
-        <ul class="nav navbar-nav list-inline">
+    <div class="collapse navbar-toggleable-md " id="navbarResponsive" [ngbCollapse]="isNavbarCollapsed" [ngSwitch]="isAuthenticated()">
+        <div class=navbar-inner>
+        <ul class="nav nav-center">
 
                 <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                  <a class="nav-link" routerLink="/analysis" (click)="collapseNavbar()">
@@ -149,5 +150,6 @@
                 </ul>
             </li>
         </ul>
+        </div>
     </div>
 </nav>
