@@ -1,9 +1,4 @@
 <nav class="navbar navbar-dark jh-navbar">
-    <div class="jh-logo-container float-xs-left">
-        <a class="navbar-brand logo float-xs-right" routerLink="/" (click)="collapseNavbar()">
-            <span class="navbar-title">Zeppelin</span>
-        </a>
-    </div>
     <div class="collapse navbar-toggleable-md " id="navbarResponsive" [ngbCollapse]="isNavbarCollapsed" [ngSwitch]="isAuthenticated()">
         <div class=navbar-inner>
         <ul class="nav nav-center">
