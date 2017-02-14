@@ -39,6 +39,10 @@ Navbar
     padding: 15px;
 }
 
+a.nav-link:hover{
+    background-color: #a7a7a7;
+}
+
 .jh-navbar .jh-navbar-toggler {
     color: #ccc;
     font-size: 1.5em;
@@ -69,6 +73,9 @@ Navbar
     float:none;
 }
 
+.nav.nav-center:hover{
+    background-color: silver;
+}
 .navbar-inner{
     text-align:center;
 }
@@ -81,7 +88,7 @@ Navbar
 }
 
 .nav-link:hover{
-	
+
 }
 
 /* ==========================================================================
