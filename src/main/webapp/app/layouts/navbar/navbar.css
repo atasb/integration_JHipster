@@ -18,6 +18,10 @@ Navbar
     border-radius: 50%;
 }
 
+.visible{
+    display:none;
+}
+
 .jh-navbar .dropdown-item.active, .jh-navbar .dropdown-item.active:focus, .jh-navbar .dropdown-item.active:hover {
     background-color: #353d47;
 }
