@@ -7,15 +7,15 @@ import { AnalysisOverviewComponent } from './analysis-overview/analysis-overview
 
 const appRoutes: Routes = [
   {
-    path: 'innovation',
+    path: '/innovation',
     component: InnovationComponent
   },
   {
-    path: 'evaluation',
+    path: '/evaluation',
     component: EvaluationOverviewComponent
   },
   {
-    path: 'analysis',
+    path: '/analysis',
     component: AnalysisOverviewComponent
   },
   {path: '', redirectTo: '/innovation', pathMatch: 'full'},
